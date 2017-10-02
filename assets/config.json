@@ -1,0 +1,142 @@
+{
+  "gameName": "MISTRESS OF AMAZON",
+  "platform": "platipus",
+  "divTopY": 165,
+  "divDownY": 170,
+  "minWidth": 1891,
+  "minHeight": 960,
+  "win": {
+    "time": 1000,
+    "sounds": {
+      "prefix": "win_sound_",
+      "betsToWinRatio": [1, 3, 5, 7, 9, 11],
+      "types": ["a"],
+      "endSound": 5
+    },
+    "linesMask": {
+      "isNeed": true,
+      "rect": {
+        "x": 11,
+        "y": 39,
+        "width": 341,
+        "height": 214
+      },
+      "except": [1, 2, 3, 14, 15, 16, 17]
+    },
+    "backgroundWinShape": {
+      "needToShow": true,
+      "rect": {
+        "x": 17,
+        "y": 0,
+        "width": 1857,
+        "height": 948
+      },
+      "color": "#000000",
+      "alpha": 0.6
+    },
+    "animations": {
+      "1": ["WinAnimation_1"],
+      "2": ["WinAnimation_2"],
+      "3": ["WinAnimation_3"],
+      "4": ["SymbolDecAnim", "SymbolFrameSmall"],
+      "5": ["SymbolDecAnim", "SymbolFrameSmall"],
+      "6": ["SymbolDecAnim", "SymbolFrameSmall"],
+      "7": ["SymbolDecAnim", "SymbolFrameSmall"],
+      "8": ["SymbolDecAnim", "SymbolFrameSmall"],
+      "9": ["SymbolDecAnim", "SymbolFrameSmall"],
+      "10": ["SymbolDecAnim", "SymbolFrameSmall"],
+      "11": ["SymbolDecAnim", "SymbolFrameSmall"],
+      "12": ["SymbolDecAnim", "SymbolFrameSmall"],
+      "13": ["SymbolDecAnim", "SymbolFrameSmall"],
+      "14": ["WinAnimation_14"],
+      "15": ["WinAnimation_15"],
+      "16": ["WinAnimation_16"],
+      "17": ["WinAnimation_17"]
+    },
+    "extendedAnimations": {
+    },
+    "overloadAnimations": {
+    }
+  },
+  "reelsType": "regular",
+  "blurSpin": true,
+  "groupSymbols": [[2, 3], [14, 15, 16, 17]],
+  "groupAnimSymbols": [[2, 3], [14, 15, 16, 17]],
+  "alwaysUpSymbols": [2, 3],
+  "stopSymbols": [
+    {
+      "symbolId": 1,
+      "minCount": 3,
+      "inRow": true,
+      "reels": [1, 2, 3]
+    }
+  ],
+  "symbolSize": {
+    "width": 364,
+    "height": 236
+  },
+  "bonuses": [
+    {
+      "id": 2,
+      "className": "AmazonQueenBonusController",
+      "initStep": 0
+    },
+    {
+      "id": 3,
+      "className": "AmazonQueenFreeSpinsController",
+      "initStep": 0
+    },
+    {
+      "id": 4,
+      "className": "AmazonQueenFreeSpinsController",
+      "initStep": 0
+    },
+    {
+      "id": 5,
+      "className": "AmazonQueenFreeSpinsController",
+      "initStep": 0
+    },
+    {
+      "id": 6,
+      "className": "AmazonQueenFreeSpinsController",
+      "initStep": 0
+    },
+    {
+      "id": 7,
+      "className": "AmazonQueenFreeSpinsController",
+      "initStep": 0
+    },
+    {
+      "id": 8,
+      "className": "AmazonQueenFreeSpinsController",
+      "initStep": 0
+    }
+  ],
+  "features": [
+  ],
+  "layouts": [
+    "SlotFireView",
+    "SymbolFrameSmall",
+    "StopSymbol_1",
+    "WinAnimation_1",
+    "WinAnimation_2",
+    "WinAnimation_3",
+    "WinAnimation_14",
+    "WinAnimation_15",
+    "WinAnimation_16",
+    "WinAnimation_17",
+    "AmazonQueenBonusIntroView",
+    "AmazonQueenBonusView",
+    "AmazonQueenBonusEndView",
+    "AmazonQueenFSResultView",
+    "AmazonQueenExtraFSView",
+    "ReelsFrameView"
+  ],
+  "bitmapFonts": [
+  ],
+  "info": {
+    "colorDesktop": "#FFFFFF",
+    "colorMobile": "#FFFFFF"
+  },
+  "logoUnderReelFrame": false
+}
