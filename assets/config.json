@@ -117,20 +117,7 @@
   "layouts": [
     "SlotFireView",
     "SymbolFrameSmall",
-    "StopSymbol_1",
-    "WinAnimation_1",
-    "WinAnimation_2",
-    "WinAnimation_3",
-    "WinAnimation_14",
-    "WinAnimation_15",
-    "WinAnimation_16",
-    "WinAnimation_17",
-    "AmazonQueenBonusIntroView",
-    "AmazonQueenBonusView",
-    "AmazonQueenBonusEndView",
-    "AmazonQueenFSResultView",
-    "AmazonQueenExtraFSView",
-    "ReelsFrameView"
+    "StopSymbol_1"
   ],
   "bitmapFonts": [
   ],
